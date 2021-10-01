@@ -3,19 +3,21 @@
 using std::cout;
     
 // Insertion Sort Algorithm
-void insertionSort(int arr[], int n)
+// Time complexity: O(n^2)
+// Space complexity: O(1)
+void insertionSort(int arr[], int n) // n is the size of the array
 {
-    int i, key, j;
-    for (i = 1; i < n; i++)
+    int i, key, j; // i is the index of the element to be inserted, key is the element to be inserted, j is the index of the element to be compared
+    for (i = 1; i < n; i++) // i starts at 1 because the first element is already sorted
     {
-        key = arr[i];
-        j = i - 1;
-        while (j >= 0 && arr[j] > key)
+        key = arr[i]; // key is the element to be inserted
+        j = i - 1; // j is the index of the element to be compared
+        while (j >= 0 && arr[j] > key) // while the element to be compared is greater than the element to be inserted
         {
-            arr[j + 1] = arr[j];
-            j = j - 1;
+            arr[j + 1] = arr[j]; // shift the element to the right
+            j = j - 1; // decrement j
         }
-        arr[j + 1] = key;
+        arr[j + 1] = key; // insert the element
     }
 }
 

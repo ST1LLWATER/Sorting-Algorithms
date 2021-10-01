@@ -5,59 +5,61 @@ using std::cout;
 using std::cin;
 using std::vector;
 
-
+// Merge Sort Algorithm
+// Time complexity: O(n log n)
+// Space complexity: O(n)
 template <class T>
-void merge(vector<T>& list, int start, int mid, int end, int &nComparisons) {
-    vector<T> left;
-    vector<T> right;
-    int leftSize = mid - start + 1;
-    int rightSize = end - mid;
+void merge(vector<T>& list, int start, int mid, int end, int &nComparisons) { // merge two sorted sublists
+    vector<T> left; // left sublist
+    vector<T> right; // right sublist
+    int leftSize = mid - start + 1; // size of left sublist
+    int rightSize = end - mid; // size of right sublist
 
-    for (int i = 0; i < leftSize; i++) {
-        left.push_back(list[start+i]);
+    for (int i = 0; i < leftSize; i++) { // copy left sublist to left vector
+        left.push_back(list[start+i]); // copy element
     }
 
-    for (int i = 0; i < rightSize; i++) {
-        right.push_back(list[i+mid+1]);
+    for (int i = 0; i < rightSize; i++) { // copy right sublist to right vector
+        right.push_back(list[i+mid+1]); // copy element
     }
 
-    int pos = start;
-    int leftPos = 0;
-    int rightPos = 0;
+    int pos = start; // position in list
+    int leftPos = 0; // position in left sublist
+    int rightPos = 0; // position in right sublist
 
-    while (leftPos < leftSize && rightPos < rightSize) {
-        nComparisons++;    
-        if (left[leftPos] < right[rightPos]) {
-            list[pos] = left[leftPos];
-            leftPos++;
-        } else {
-            list[pos] = right[rightPos];
-            rightPos++;
+    while (leftPos < leftSize && rightPos < rightSize) {    // while both sublists are not empty
+        nComparisons++;    // increment comparisons
+        if (left[leftPos] < right[rightPos]) { // if left element is smaller than right element
+            list[pos] = left[leftPos]; // copy left element to list
+            leftPos++; // increment left sublist position
+        } else { // if right element is smaller than left element
+            list[pos] = right[rightPos]; // copy right element to list
+            rightPos++; // increment right sublist position
         }
-        pos++;
+        pos++; // increment position in list
     }
 
-    while (leftPos < leftSize) {
-        list[pos] = left[leftPos];
-        leftPos++;
-        pos++;
+    while (leftPos < leftSize) { // while left sublist is not empty
+        list[pos] = left[leftPos]; // copy left element to list
+        leftPos++; // increment left sublist position
+        pos++; // increment position in list
     }
 
-    while (rightPos < rightSize) {
-        list[pos] = right[rightPos];
-        rightPos++;
-        pos++;
+    while (rightPos < rightSize) { // while right sublist is not empty
+        list[pos] = right[rightPos]; // copy right element to list
+        rightPos++; // increment right sublist position
+        pos++; // increment position in list
     }
 }
 
-template <class T>
-void mergeSort(vector<T>& list, int start, int end, int &nComparisons) {
+template <class T> // merge sort algorithm
+void mergeSort(vector<T>& list, int start, int end, int &nComparisons) { // sort sublist
 
-    if(end > start) {
-        int mid = (start + end) / 2;    
-        mergeSort(list, start, mid, nComparisons);    
-        mergeSort(list, mid+1, end, nComparisons);    
-        merge(list, start, mid, end, nComparisons);
+    if(end > start) { // if sublist is not empty
+        int mid = (start + end) / 2;  // find midpoint of sublist
+        mergeSort(list, start, mid, nComparisons); // sort left sublist
+        mergeSort(list, mid+1, end, nComparisons); // sort right sublist
+        merge(list, start, mid, end, nComparisons); // merge two sorted sublists
     }
 }
 
