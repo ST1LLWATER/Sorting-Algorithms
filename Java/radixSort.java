@@ -19,6 +19,11 @@ Introduction:
 Time and Space Complexity:
 
   Time Complexity: O(d * (n + b));
+  	
+    Best Case: Ω((n+b)*d)
+    Average Case: θ((n+b)*d)
+    Worst Case: O((n+b)*d)
+
     here: d -> no. of digit/char of the largest element in the array.
           n -> no. of elements in the array.
           b -> base of the elements(for example: 10 for decimal no.s, 26 for alphabets)
