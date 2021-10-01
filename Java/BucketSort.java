@@ -9,7 +9,7 @@
 // ------------------------
 // Worst-case performance	  O(n^2)
 // Best-case performance	  O(n+k)
-// Average performance	    O(n + n²/k + k)
+// Average performance	          O(n + n²/k + k)
 // ------------------------
 
 // SPACE COMPLEXITIES
