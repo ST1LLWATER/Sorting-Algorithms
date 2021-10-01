@@ -3,9 +3,9 @@
 // the same place value. Then, sort the elements according to their increasing/decreasing order.
 
 //Time complexity
-//Best case: O(n+k)
-//Worst case: O(n+k)
-//Average case: O(n+k)
+//Best case:      O(n+k)
+//Worst case:     O(n+k)
+//Average case:   O(n+k)
 
 // Radix Sort in C Programming
 
