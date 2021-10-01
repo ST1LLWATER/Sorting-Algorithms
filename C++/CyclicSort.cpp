@@ -61,7 +61,7 @@ using namespace std;
 // Driver code
 int main()
 {
-    int arr[] = { 12, 11, 13, 5, 6, 7 };
+    int arr[] = {1 , 3 , 2 , 4 , 5};
     int n = sizeof(arr) / sizeof(arr[0]);
  
     Cyclic_sort(arr,n);
