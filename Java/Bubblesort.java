@@ -5,14 +5,14 @@
 ------------------
 // TIME COMPLEXITIES
 ------------------------
-// Worst-case performance	O(n^2)
-// Best-case performance	O(n)
+// Worst-case performance	  O(n^2)
+// Best-case performance	  O(n)
 // Average performance	    O(n^2)
 ------------------------
 
 // SPACE COMPLEXITIES
 ------------------------
-// Worst-case performance	O(1)
+// Worst-case performance	   O(1)
 ------------------------
 
 
