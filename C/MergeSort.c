@@ -1,14 +1,15 @@
 // INTRODUCTION
 // --------------------------------
-
-
+//  Merge Sort is a Divide and Conquer algorithm. It has mainly divide the array into subarray
+//  untill futher division is not possible, then subarray is combined while comparing with other
+//  subarray.
 // ---------------------------------
 
 // TIME COMPLEXITIES
 
-// Best	    
+// Best	    O(nlog n)
 // Worst	O(nlog n)
-// Average	
+// Average	O(nlog n)
 
 
 
