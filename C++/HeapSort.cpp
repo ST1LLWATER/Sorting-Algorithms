@@ -10,9 +10,9 @@
 
 // TIME COMPLEXITIES
 ------------------------
-// Worst-case performance	O(nlog n)
-// Best-case performance	O(nlog n) (distinct keys) or O(n) (equal keys)
-// Average performance	    O(nlog n)
+// Worst-case performance	       O(nlog n)
+// Best-case performance	        O(nlog n) (distinct keys) or O(n) (equal keys)
+// Average performance	          O(nlog n)
 ------------------------
 
 
