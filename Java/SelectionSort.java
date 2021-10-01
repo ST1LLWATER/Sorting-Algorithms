@@ -1,6 +1,6 @@
 // INTRODUCTION
 ------------------
-// Merge Sort is a sorting technique which is a little more efficient than bubble sort.
+// Selection Sort is a sorting technique which is a little more efficient than bubble sort.
 // It swaps the minimum element (considering ascending order) from unsorted part and putting it at the beginning.
 ------------------
 
