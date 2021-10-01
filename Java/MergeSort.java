@@ -1,3 +1,15 @@
+// TIME COMPLEXITIES
+------------------------
+// Worst-case performance	  O(n*log(n))
+// Best-case performance	  O(n*log(n))
+// Average performance	          O(n*log(n))
+------------------------
+
+// SPACE COMPLEXITIES
+------------------------
+// Worst-case performance	   O(n)
+------------------------
+
 /* Java program for Merge Sort */
 class MergeSort
 {
