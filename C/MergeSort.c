@@ -65,20 +65,24 @@ void mergeSort( int low, int high ){
 }
 
 int main(){
-    int  n, i;
+    int  n, i,temp;
+
     printf("Enter number elements to be sorted: ");
     scanf("%d",&n);
 
-    printf("Enter numbers: ");
+    printf("Enter numbers:");
     for(i=0;i<n;i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d",&temp);
+        arr[i]=temp;
     }
 
-     mergeSort( 0,n-1);
+    mergeSort(0,n-1);
+
+    printf("After Sorting: \n");
 
     for(i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
-    
+
     return 0;
 }
