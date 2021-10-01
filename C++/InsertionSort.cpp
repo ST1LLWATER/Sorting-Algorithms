@@ -3,7 +3,12 @@
 using std::cout;
     
 // Insertion Sort Algorithm
-// Time complexity: O(n^2)
+
+// Time complexity
+// Best: O(n)
+// Average: O(n^2)
+// Worst: O(n^2)
+
 // Space complexity: O(1)
 void insertionSort(int arr[], int n) // n is the size of the array
 {

@@ -6,7 +6,12 @@ using std::cin;
 using std::vector;
 
 // Merge Sort Algorithm
-// Time complexity: O(n log n)
+
+// Time complexity
+// Best: O(n log n)
+// Average: O(n log n)
+// Worst: O(n log n)
+
 // Space complexity: O(n)
 template <class T>
 void merge(vector<T>& list, int start, int mid, int end, int &nComparisons) { // merge two sorted sublists
