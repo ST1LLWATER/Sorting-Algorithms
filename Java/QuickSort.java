@@ -7,7 +7,8 @@
 
 // SPACE COMPLEXITIES
 ------------------------
-// Worst-case performance	   O(n)
+// Basic Approach        O(n)
+// Modified Approach     O(logn)
 ------------------------
 
 // Java implementation of QuickSort
