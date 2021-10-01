@@ -22,7 +22,7 @@ Time and Space Complexity:
   Time Complexity:
 
   Best:              O(n+k)
-  Worst:	         O(n+k)
+  Worst:	     O(n+k)
   Average:           O(n+k)
 
   Space Complexity:  O(max)
