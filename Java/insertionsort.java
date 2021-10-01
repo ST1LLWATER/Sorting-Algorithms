@@ -10,7 +10,7 @@ TIME COMPLEXITIES
 ------------------------
 Worst-case performance	O(n^2)
 Best-case performance	O(n)
-Average performance	    O(n^2)   */
+Average performance	    O(n^2) */
 ------------------------
 
     
