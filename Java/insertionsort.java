@@ -1,16 +1,16 @@
-/* INTRODUCTION
+// INTRODUCTION
 ------------------
-Insertion sort is a simple sorting algorithm
-The array is virtually split into a sorted and an unsorted part.
-Values from the unsorted part are picked and placed at the correct position in the sorted part.
-It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. 
+// Insertion sort is a simple sorting algorithm
+// The array is virtually split into a sorted and an unsorted part.
+// Values from the unsorted part are picked and placed at the correct position in the sorted part.
+// It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. 
 
 
-TIME COMPLEXITIES
+// TIME COMPLEXITIES
 ------------------------
-Worst-case performance	O(n^2)
-Best-case performance	O(n)
-Average performance	    O(n^2) */
+// Worst-case performance	    O(n^2)
+// Best-case performance	    O(n)
+// Average performance	        O(n^2) 
 ------------------------
 
     
