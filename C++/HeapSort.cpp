@@ -1,25 +1,25 @@
 // INTRODUCTION
-------------------
+//------------------
 // Heap sort is a comparison-based sorting technique based on Binary Heap data structure. 
 // It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. 
 // We repeat the same process for the remaining elements.
-------------------
+//------------------
 
 
 
 
 // TIME COMPLEXITIES
-------------------------
+//------------------------
 // Worst-case performance	       O(nlog n)
 // Best-case performance	        O(nlog n) (distinct keys) or O(n) (equal keys)
 // Average performance	          O(nlog n)
-------------------------
+//------------------------
 
 
 
 
 // CODE
------------------------------------------------
+//-----------------------------------------------
 // C++ program for implementation of Heap Sort
 #include <iostream>
  
@@ -87,4 +87,4 @@ int main()
     cout << "Sorted array is \n";
     printArray(arr, n);
 }
------------------------------------------------
+//-----------------------------------------------
