@@ -3,13 +3,15 @@ package main
 import "fmt"
 
 /*
-		BUBBLE SORT ALGORITHM
+
+BUBBLE SORT ALGORITHM
 --------------------------
 Time complexity
 -Best case  O(n)
 -worst case O(n^2)
 ---------------------------
 Space complexity - O(1)
+
 */
 
 /*
