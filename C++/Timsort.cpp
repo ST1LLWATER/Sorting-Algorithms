@@ -1,6 +1,6 @@
 /*TimSort is a sorting algorithm based on Insertion Sort and Merge Sort.
 
-A stable sorting algorithm works in O(n Log n) time
+A stable sorting algorithm works in O(n Log n) time and O(n) in best case.
 Used in Java’s Arrays.sort() as well as Python’s sorted() and sort().
 First sort small pieces using Insertion Sort, then merges the pieces using merge of merge sort.
 We divide the Array into blocks known as Run. 
