@@ -1,8 +1,8 @@
 //Ishita Karandikar
 
-Time Complexity: Average case time complexity of the algorithm is Ω(N2/2p), where p is the number of increments.
-The worst-case complexity of this algorithm is O(n2) and the Best Case complexity is O(nlogn). 
-Auxiliary Space : O(1). 
+// Time Complexity: Average case time complexity of the algorithm is Ω(N^2/2p), where p is the number of increments.
+// The worst-case complexity of this algorithm is O(n^2) and the Best Case complexity is O(nlogn). 
+// Auxiliary Space : O(1). 
 
 
 
