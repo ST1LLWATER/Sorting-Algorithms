@@ -9,7 +9,9 @@
 // We can say that the algorithm places smallest element at ith position, where i = iteration count 
 
 // Time Complexity of Selection Sort
-// Time compelxity is O(n^2) in all cases which makes it ineffecient on large arrays 
+// Time compelxity - O(n^2) in all cases which makes it ineffecient on large arrays 
+
+// Space Complexity - O(1)
 
 
 // C++ code for Selection Sort 
