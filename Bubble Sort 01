@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+void bubble_sort(int a[], int n)
+{
+    int i;
+    int j;
+    int temp;
+    for(j=1; j<n; j++){
+        for(i=0; i<n; i++){
+            if(a[i]>=a[i+1]){
+                temp=a[i];
+                a[i]=a[i+1];
+                a[i+1]=a[i];
+            }
+        }
+    }
+}
+int main()
+{
+    int a[20], n, i;
+    cout<<"Enter number of elements \n";
+    cin>>n;
+    cout<<"Enter elements to sort \n";
+    for(i=0; i<n; i++)
+    {
+        cin>>a[i];
+    }
+    bubble_sort(a, n);
+    cout<<"Elements after sorting is \n";
+    cout<<"hello";
+    for ( i = 0; i < n; i++)
+    {
+        cout<<a[i];
+    }
+}
